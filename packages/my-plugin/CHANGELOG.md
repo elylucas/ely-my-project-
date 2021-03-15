@@ -1,4 +1,16 @@
 ## Change Log 
+# [1.3.0] (2021-03-15)
+
+
+### Features
+
+* **my-plugin:** making it friendlier 
+
+
+
+
+
+## Change Log 
 ## 1.2.3 (2021-03-15)
 
 **Note:** Version bump only for package @ely-my-project/my-plugin
