@@ -20,6 +20,7 @@
   },
   "scripts": {
     "clean": "rimraf dist && rimraf build",
+    "clean-change-log": "node ../../scripts/clean-changelog.js CHANGELOG.md",
     "build": "npm run clean && npm run transpile && npm run rollup",
     "rollup": "rollup --config rollup.config.js",
     "transpile": "tsc",
