@@ -1,0 +1,38 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "clean-change-log": "node ./scripts/clean-changelog.js && lerna run clean-change-log",
+    "eslint": "eslint . --ext ts",   
+    "git:amend": "git add . && git commit --amend --no-edit", 
+    "git:push": "git push origin head && git push origin $(git tag --sort=taggerdate | tail -1)",
+    "git:reset": "git reset --hard && git clean -df",
+    "lerna:publish": "lerna publish --conventional-commits --no-push --create-release github",    
+    "lerna:publish:dev": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid dev-$(git rev-parse --short HEAD) --dist-tag dev --force-publish --no-git-tag-version --no-push",    
+    "lerna:publish:beta": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid beta --dist-tag next --force-publish",    
+    "lerna:publish:rc": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid rc --dist-tag next --force-publish",    
+    "lerna:version:beta:fromci": "lerna version prerelease --conventional-commits --preid beta",    
+    "lerna:publish:beta:fromci": "lerna publish from-git --dist-tag next --force-publish --yes",    
+    "lint": "npm run eslint && npm run prettier",
+    "prettier": "prettier \"**/*.{css,html,java,js,mjs,ts}\" --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "postinstall": "lerna bootstrap",
+    "release": "lerna run test && lerna run build && npm run lerna:publish && npm run clean-change-log && lerna run docs && npm run git:amend && npm run git:push",
+    "release:dev": "lerna run test && lerna run build && npm run lerna:publish:dev && npm run git:reset",
+    "release:beta:fromci": "lerna run test && lerna run build && npm run lerna:version:beta:fromci",
+    "release:beta": "lerna run test && lerna run build && npm run lerna:publish:beta",
+    "release:rc": "lerna run test && lerna run build && npm run lerna:publish:rc",
+    "postversion2": "npm run git:amend"
+  },
+  "devDependencies": {
+    "@ionic/eslint-config": "^0.3.0",
+    "@ionic/prettier-config": "^1.0.1",
+    "eslint": "^7.21.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  },
+  "prettier": "@ionic/prettier-config",
+  "eslintConfig": {
+    "extends": "@ionic/eslint-config/recommended"
+  }
+}

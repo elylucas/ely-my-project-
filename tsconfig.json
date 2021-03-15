@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "lib": ["es2015", "dom"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmitHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "exclude": ["**/__tests__/*.ts"],
+  "outDir": "dist/esm",
+  "typedocOptions": {
+    "exclude": "**/*+(test).ts",
+    "excludeExternals": true,
+    "includeDeclarations": true,
+    "plugin": "typedoc-plugin-markdown",
+    "readme": "none",
+    "hideGenerator": true,
+  }
+}

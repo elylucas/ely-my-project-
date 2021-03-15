@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist/esm",
+    "target": "ES2019"
+  },
+  "include": ["src/index.ts"],
+  "typedocOptions": {
+    "name": "Ely My Project Core"
+  }
+}

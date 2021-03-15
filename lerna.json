@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.2.0",
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "version": {
+      "message": "chore(release): %v"
+    }
+  }
+}
