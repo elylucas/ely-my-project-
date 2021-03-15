@@ -1,4 +1,16 @@
 ## Change Log 
+## [1.3.1] (2021-03-15)
+
+
+### Bug Fixes
+
+* **core:** 4 As is actually better 
+
+
+
+
+
+## Change Log 
 # [1.3.0] (2021-03-15)
 
 **Note:** Version bump only for package @ely-my-project/core

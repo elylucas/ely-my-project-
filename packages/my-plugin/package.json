@@ -1,6 +1,6 @@
 {
   "name": "@ely-my-project/my-plugin",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "> TODO: description",
   "author": "Ely Lucas <ely@meta-tek.net>",
   "homepage": "https://github.com/elylucas/ely-my-project#readme",
@@ -47,6 +47,6 @@
     "typescript": "4.1.5"
   },
   "dependencies": {
-    "@ely-my-project/core": "^1.3.0"
+    "@ely-my-project/core": "^1.3.1"
   }
 }
