@@ -8,6 +8,6 @@ export const sayHello = (name: string): string => {
 };
 
 
-export const sayHello2 = (name: string): string => {
-  return 'Hello ' + name + ' 2aaaa';
+export const sayHello2 = (name: string, age: number): string => {
+  return 'Hello ' + name + ' 2aaaa You are ' + age;
 };
