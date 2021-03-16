@@ -20,7 +20,7 @@
     "release": "lerna run test & lerna run build && npm run lerna:publish",
     "release:dev": "lerna run test && lerna run build && npm run lerna:publish:dev",
     "release:beta": "lerna run test && lerna run build && npm run lerna:publish:beta",
-    "release:rc": "lerna run test && lerna run build && npm run lerna:version:rc",
+    "release:rc": "lerna run test && lerna run build && npm run lerna:publish:rc",
     "release:beta:fromci": "lerna run test && lerna run build && npm run lerna:version:beta:fromci",
     "version": "npm run clean-change-log && lerna run docs && git add ."
   },
