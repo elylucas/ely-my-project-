@@ -25,20 +25,21 @@ Name | Type | Description |
 
 **Returns:** *string*
 
-Defined in: [index.ts:6](https://github.com/elylucas/ely-my-project-/blob/b260247/packages/core/src/index.ts#L6)
+Defined in: [index.ts:6](https://github.com/elylucas/ely-my-project-/blob/27f5c93/packages/core/src/index.ts#L6)
 
 ___
 
 ### sayHello2
 
-▸ `Const`**sayHello2**(`name`: *string*): *string*
+▸ `Const`**sayHello2**(`name`: *string*, `age`: *number*): *string*
 
 #### Parameters:
 
 Name | Type |
 :------ | :------ |
 `name` | *string* |
+`age` | *number* |
 
 **Returns:** *string*
 
-Defined in: [index.ts:11](https://github.com/elylucas/ely-my-project-/blob/b260247/packages/core/src/index.ts#L11)
+Defined in: [index.ts:11](https://github.com/elylucas/ely-my-project-/blob/27f5c93/packages/core/src/index.ts#L11)
