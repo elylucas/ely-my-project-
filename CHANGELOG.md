@@ -1,4 +1,13 @@
 ## Change Log 
+## [1.4.2] (2021-03-16)
+
+**Note:** Version bump only for package root
+
+
+
+
+
+## Change Log 
 ## [1.4.1] (2021-03-16)
 
 **Note:** Version bump only for package root
