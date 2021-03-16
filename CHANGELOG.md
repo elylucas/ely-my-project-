@@ -1,4 +1,16 @@
 ## Change Log 
+# [1.5.0] (2021-03-16)
+
+
+### Features
+
+* **core:** so many 2 As! 
+
+
+
+
+
+## Change Log 
 ## [1.4.2] (2021-03-16)
 
 **Note:** Version bump only for package root
