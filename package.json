@@ -28,7 +28,7 @@
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "eslint": "^7.21.0",
-    "lerna": "^3.22.1",
+    "lerna": "^4.0.0",
     "prettier": "^2.2.1"
   },
   "prettier": "@ionic/prettier-config",
