@@ -9,5 +9,5 @@ export const sayHello = (name: string): string => {
 
 
 export const sayHello2 = (name: string, age: number): string => {
-  return 'Hello ' + name + ' 2aaaaaaaaadddddd You are ' + age;
+  return 'Hello ' + name + ' 2aaaaaaaaaddddddd You are ' + age;
 };
