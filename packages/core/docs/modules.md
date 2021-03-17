@@ -25,7 +25,7 @@ Name | Type | Description |
 
 **Returns:** *string*
 
-Defined in: [index.ts:6](https://github.com/elylucas/ely-my-project-/blob/f633882/packages/core/src/index.ts#L6)
+Defined in: [index.ts:6](https://github.com/elylucas/ely-my-project-/blob/f0bdfd4/packages/core/src/index.ts#L6)
 
 ___
 
@@ -42,4 +42,4 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [index.ts:11](https://github.com/elylucas/ely-my-project-/blob/f633882/packages/core/src/index.ts#L11)
+Defined in: [index.ts:11](https://github.com/elylucas/ely-my-project-/blob/f0bdfd4/packages/core/src/index.ts#L11)
