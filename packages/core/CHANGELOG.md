@@ -1,4 +1,13 @@
 ## Change Log 
+## [1.8.1] (2021-03-17)
+
+**Note:** Version bump only for package @ely-my-project/core
+
+
+
+
+
+## Change Log 
 ## [1.8.1-rc.0] (2021-03-17)
 
 
