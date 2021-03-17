@@ -10,7 +10,7 @@
     "lerna:publish": "lerna publish --conventional-commits --conventional-graduate --create-release github",
     "lerna:publish:beta": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid beta --dist-tag next --force-publish --no-git-tag-version --no-push --ignore-scripts",
     "lerna:publish:dev": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid dev-$(git rev-parse --short HEAD) --dist-tag dev --force-publish --no-git-tag-version --no-push --ignore-scripts",
-    "lerna:publish:rc": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid rc --dist-tag next --force-publish --no-git-tag-version --no-push --ignore-scripts",
+    "lerna:publish:rc": "lerna publish prerelease --conventional-commits --conventional-prerelease --no-changelog --preid rc --dist-tag next --force-publish --no-git-tag-version --ignore-scripts",
     "lerna:version:beta:fromci": "lerna version prerelease --conventional-commits --preid beta",
     "lerna:publish:beta:fromci": "lerna publish from-git --dist-tag next --force-publish --yes",
     "lint": "npm run eslint && npm run prettier",
