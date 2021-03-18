@@ -1,4 +1,16 @@
 ## Change Log 
+# [2.1.0] (2021-03-18)
+
+
+### Bug Fixes
+
+* **my-plugin:** not exciting enough2 
+
+
+
+
+
+## Change Log 
 # [2.1.0-rc.0] (2021-03-18)
 
 **Note:** Version bump only for package @ely-my-project/my-plugin
