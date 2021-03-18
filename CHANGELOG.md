@@ -1,4 +1,21 @@
 ## Change Log 
+# [2.1.0-beta.0] (2021-03-18)
+
+
+### Bug Fixes
+
+* **my-plugin:** not exciting enough 
+
+
+### Features
+
+* **core:** 7 Ds?! 
+
+
+
+
+
+## Change Log 
 # [2.0.0] (2021-03-18)
 
 
