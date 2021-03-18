@@ -1,4 +1,13 @@
 ## Change Log 
+# [2.0.0] (2021-03-18)
+
+**Note:** Version bump only for package @ely-my-project/my-plugin
+
+
+
+
+
+## Change Log 
 ## [1.8.1] (2021-03-17)
 
 **Note:** Version bump only for package @ely-my-project/my-plugin

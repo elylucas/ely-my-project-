@@ -1,4 +1,31 @@
 ## Change Log 
+# [2.0.0] (2021-03-18)
+
+
+* BREAKING CHANGE: sdb 
+
+
+### Bug Fixes
+
+* **core:** simple fix2 
+
+
+### Features
+
+* **core:** 6 Ds?! 
+
+
+### BREAKING CHANGES
+
+* update stuff to fix it
+
+fixes: 1234
+
+
+
+
+
+## Change Log 
 ## [1.8.1] (2021-03-17)
 
 **Note:** Version bump only for package root
